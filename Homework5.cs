@@ -5,27 +5,29 @@ class Program
     static void Main(string[] args)
     {
         
-        /*Q1
+        //Q1
+        Console.WriteLine("Please input four integers.");
         int a = GetInt();
         int b = GetInt();
         int c = GetInt();
         int d = GetInt();
-        int fourComp = Converter(a, b, c : 0, d : 0);
-        Console.WriteLine($"a = {a}; b = {b}\nThe largest number is: {fourComp}");int twoComp = Converter(a, b, c, d);
+        int fourComp = Compare(a, b, c : 0, d : 0);
+        Console.WriteLine($"a = {a}; b = {b}\nThe largest number is: {fourComp}");
+        int twoComp = Compare(a, b, c, d);
         Console.WriteLine($"a = {a}; b = {b}; c = {c}; d = {d}\nThe largest number is: {twoComp}");
-        */
-        
+        /*
         //Q2
-        CreateAccount();
+        CreateAccount();*/
+        
      }
 
-        /*Q1-2
+       //Q1-2
     static int GetInt(){
         string string_input = Console.ReadLine();
         int int_return = Convert.ToInt16(string_input);
         return int_return;}
 
-    static int Converter(int a, int b, int c, int d){
+    static int Compare(int a, int b, int c, int d){
             int max1=0;
             int max2=0;
             int max=0;
@@ -46,8 +48,8 @@ class Program
             }
             return max;
             }
-            */
-        //Q2
+            
+        /*Q2
          static bool CheckAge(int birth_year){
             
             int age = 2022 - birth_year;
@@ -75,7 +77,7 @@ class Program
                Console.WriteLine("Account created Succefully.");
              }
 
-        }
+        }*/
 
         
 }
